@@ -1,0 +1,117 @@
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #f4d04e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Figtree", sans-serif;
+  }
+  
+  /* Card Styling */
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    width: 384px;
+    background: #ffffff;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 20px;
+    background-color: aliceblue;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+      height: auto;
+    }
+    .content, .title, .description {
+      width: 100%;
+    }
+  }
+  
+  /* Category Styling */
+  .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 8px;
+    background: #f4d04e;
+    border-radius: 4px;
+    width: auto;
+  }
+  
+  .category:hover {
+    background-color: #e0b71a;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Learning Text in Category */
+  .learning {
+    font-weight: 800;
+    font-size: 14px;
+    color: #111111;
+  }
+  
+  /* Publish Date Styling */
+  .publishDate {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111111;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-weight: 800;
+    font-size: 24px;
+    color: #111111;
+  }
+  
+  .title:hover {
+    color: #f4d04e;
+    transition: color 0.3s ease;
+  }
+  
+  /* Description Styling */
+  .description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6b6b6b;
+  }
+  
+  /* Author Section */
+  .author {
+    font-weight: 500;
+    font-size: 16px;
+    color: #111111;
+  }
+  
+  /* Attribution Section */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .attribution a {
+    color: #0000ff;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #333333;
+    margin-top: auto;
+    
+  }
+  
+  .attribution a {
+    color: #0000ff;
+  }
